@@ -1,0 +1,9 @@
+create table users(
+	nome varchar(40),
+	senha varchar(40)
+);
+
+insert into users 
+values ('debora', '1234'), 
+	   ('doglas', 'abcd'), 
+	   ('vaquinha', 'fofa');
